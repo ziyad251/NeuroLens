@@ -1,0 +1,28 @@
+Flask==3.0.3
+flask-cors==4.0.1
+pymongo==4.10.1
+python-dotenv==1.0.1
+Werkzeug==3.0.4
+
+# ML / explainability (Grad-CAM)
+# NOTE: Windows pip may not provide "+cpu" wheels depending on index configuration.
+# Use standard torch/torchvision pins; CPU wheels will be selected automatically where available.
+torch==2.5.1
+torchvision==0.20.1
+
+# Grad-CAM library used in Colab: `from pytorch_grad_cam import GradCAM`
+# PyPI package providing the `pytorch_grad_cam` module is `grad-cam`.
+grad-cam==1.4.8
+
+# Image handling
+Pillow==10.4.0
+numpy==2.0.0
+
+# Reports
+reportlab==4.2.0
+
+# Email (yagmail)
+yagmail==0.15.293
+
+# Serving safety (optional)
+gunicorn==23.0.0

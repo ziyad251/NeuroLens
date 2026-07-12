@@ -1,0 +1,56 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+.python-version
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local app data and uploads
+uploads/
+uploaded_files/
+data/
+tmp/
+*.sqlite3
+*.db
+*.log
+
+# Model files and large binaries
+models/*.pth
+models/*.pt
+models/*.onnx
+models/*.h5
+*.pkl
+*.joblib
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Project documentation / internal notes
+README.md
+TODO.md
+MODEL_PLACEMENT.md
