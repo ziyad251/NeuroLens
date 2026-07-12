@@ -666,23 +666,6 @@ A production-grade implementation should include:
 
 ---
 
-# 🗺️ Future Improvements
-
-- [ ] Multimodal Alzheimer's analysis using MRI and clinical data
-- [ ] Dedicated MRI validation model
-- [ ] Advanced out-of-distribution detection
-- [ ] Model confidence calibration
-- [ ] Improved uncertainty estimation
-- [ ] Longitudinal patient progression tracking
-- [ ] Role-based authentication
-- [ ] Doctor and administrator dashboards
-- [ ] Cloud deployment
-- [ ] Model monitoring and versioning
-- [ ] Improved report customization
-- [ ] External dataset validation
-- [ ] Mobile-responsive interface
-
----
 
 # 🧪 Research & Engineering Focus
 
@@ -740,18 +723,6 @@ Then open a Pull Request.
 
 ---
 
-# 👨‍💻 Author
-
-**Mahammad Ziyad**
-
-Computer Science & Engineering student focused on:
-
-- Backend Development
-- Cloud Technologies
-- Generative AI
-- Machine Learning
-
----
 
 # ⭐ Support
 
